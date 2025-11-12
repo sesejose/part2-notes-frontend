@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use(express.static("dist")); // Add this line to serve static files
+app.use(express.static("dist")); // Serve static files from dist
 
 let notes = [
   {
